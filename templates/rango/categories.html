@@ -1,4 +1,5 @@
 <ul>
+    <li><a href="{% url 'rango:add_category' %}">Add New Category</a></li>
     {% if categories %}
         {% for c in categories %}
             {% if c == current_category %}
